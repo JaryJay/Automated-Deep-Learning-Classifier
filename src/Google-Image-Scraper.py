@@ -1,8 +1,9 @@
 #from ScrawlerCore import ScrawlerCore
+
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import urllib
+import urllib 
 import os
 
 def GoogleImageScrawler(keyword, n = 400):
